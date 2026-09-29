@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Local database (each member has their own data)
+data/*.db
+data/*.corrupt-*.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
